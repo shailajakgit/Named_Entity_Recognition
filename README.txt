@@ -1,7 +1,7 @@
 ********************************************************************************************************************************
 Objective
 =========
-This project aims at classifying words into one of the predefined classes, given a text in which the words appear. The problem statement and data are from Stanford NLP course -cs224n. The code is my implementation of the solution to the Named Entity Recognition (NER) problem using simple RNNs and RNNs with GRU cells.
+This project aims at classifying words into one of the predefined classes, given a text in which the words appear. The problem statement, data and some of the data preprocessing code are from Stanford NLP course -cs224n. The code is my implementation of the solution to the Named Entity Recognition (NER) problem using simple RNNs and RNNs with GRU cells.
 
 
 Evaluation Metric: F1-Score.
