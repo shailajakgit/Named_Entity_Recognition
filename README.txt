@@ -74,7 +74,9 @@ sheep	O
 About Code Files
 ================
 
-The code is distributed among .py files and Jupyter notebooks. Most of utility methods, such as helper classes that has code to load preprocessed data, evaluate models and save models is in .py files. File names that begin with "q1_" implement a window-based feed-froward neural network. Data are windowed with vectorized features and the model is suppossed to predict label for the center word in the window. Files with name beginning with "q2_" contain simple RNN implementation and files prefixed with "q3_" contains GRU implementation.
+The code is distributed among .py files. Most of the helper classes that has code to load preprocessed data are in util.py and data_util.py files. Common model code is distributed among model.py, ner_model.py and def.py files. 
+
+File names that begin with "q1_" implement a window-based feed-froward neural network. In this implementation, data are windowed with vectorized features and the model is suppossed to predict label for the center word in the window. File names beginning with "q2_" contain simple RNN implementation and files prefixed with "q3_" contains GRU implementation.
 ********************************************************************************************************************************
 
 
